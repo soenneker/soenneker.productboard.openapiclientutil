@@ -6,7 +6,7 @@ using Soenneker.ProductBoard.OpenApiClientUtil.Abstract;
 namespace Soenneker.ProductBoard.OpenApiClientUtil.Registrars;
 
 /// <summary>
-/// Registers the OpenAPI client utility for dependency injection.
+/// Registers the Productboard API v2 client provider.
 /// </summary>
 public static class ProductBoardOpenApiClientUtilRegistrar
 {
