@@ -11,6 +11,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.ProductBoard.OpenApiClientUtil;
 
+/// <inheritdoc cref="IProductBoardOpenApiClientUtil" />
 public sealed class ProductBoardOpenApiClientUtil : IProductBoardOpenApiClientUtil
 {
     private readonly AsyncSingleton<ProductBoardOpenApiClient> _client;
